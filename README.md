@@ -50,7 +50,6 @@ NIKOLINA_TFM/
 │       └── rag_explainer.py
 │   └── assets/
 │       └── 05_report_features_final.json
-│       └── brats21_folds.json
 │       └── Params.yaml
 │
 ├── requirements.txt
