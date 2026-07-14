@@ -66,8 +66,11 @@ The official Synapse page for BraTS2021 (https://www.synapse.org/#!Synapse:syn27
 Use the Kaggle platform instead: https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1.
 
 Fold split json file (brats21_folds.json). Download from: https://developer.download.nvidia.com/assets/Clara/monai/tutorials/brats21_folds.json.
+
 Base pretrained model (starting point for phase2) -> pretrained_models/model_fold1/model.pt
+
 Reference texts for the explanation layer (used by phase5 and rag_explainer.py) -> app/references/
+
 Ollama installed locally with the llama3:8b model pulled for phase5 and rag_explainer.py
 
 Full structure:
