@@ -1,0 +1,29 @@
+# Requirements for the BraTS2021 pipeline + app
+# Python 3.11 required (PyRadiomics does not build on 3.13)
+
+# Phase 2: segmentation
+torch>=2.2                
+monai==1.5.2
+einops
+
+# Phase 3: radiomics
+nibabel
+SimpleITK
+pyradiomics               # requires Python 3.11
+
+# General computing
+numpy
+scipy
+pandas
+matplotlib
+
+# Phase 5: RAG
+sentence-transformers     # local embeddings for retrieval
+faiss-cpu                 # vector index
+requests                  # talks to the local Ollama server
+
+# Desktop app
+PyQt5
+
+# Utilities
+tqdm
