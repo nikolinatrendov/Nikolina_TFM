@@ -1,0 +1,30 @@
+{
+  "report_features": [
+    "WT_FLAIR_original_shape_VoxelVolume",
+    "WT_FLAIR_original_shape_Flatness",
+    "WT_FLAIR_original_shape_Elongation",
+    "TC_T1CE_original_firstorder_Skewness",
+    "WT_FLAIR_original_shape_SurfaceVolumeRatio",
+    "ET_T1CE_original_shape_Flatness",
+    "ET_T1CE_original_shape_Elongation",
+    "TC_T1CE_original_shape_SurfaceVolumeRatio",
+    "WT_FLAIR_original_firstorder_Skewness",
+    "ET_T1CE_original_shape_Sphericity",
+    "ET_T1CE_original_shape_SurfaceVolumeRatio",
+    "TC_WT_ratio",
+    "ET_WT_ratio",
+    "necrosis_fraction",
+    "ET_TC_ratio"
+  ],
+  "scanner_dependent_excluded": [
+    "TC_T1CE_original_firstorder_Mean",
+    "WT_FLAIR_original_firstorder_Maximum"
+  ],
+  "ratio_features": [
+    "TC_WT_ratio",
+    "ET_WT_ratio",
+    "necrosis_fraction",
+    "ET_TC_ratio"
+  ],
+  "note": "report_features are scanner-robust (shape, scale-invariant first-order, ratios); scanner_dependent_excluded are stable but absolute-intensity and not sent to the LLM."
+}
